@@ -1,4 +1,4 @@
-module go-underscore
+module github.com/nicolasgere/go-underscore
 
 go 1.18
 
