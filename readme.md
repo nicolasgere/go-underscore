@@ -46,4 +46,7 @@ func main() {
 - [x] Reduce
 - [x] Find
 - [x] Sort
-
+- [ ] Contains
+- [ ] Shuffle
+- [ ] First
+- [ ] Last
