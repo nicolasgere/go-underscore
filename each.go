@@ -1,4 +1,4 @@
-package collections
+package main
 
 func Each[T any](d []T, h func(T) T) []T {
 	r := make([]T, len(d))

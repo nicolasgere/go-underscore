@@ -1,4 +1,4 @@
-package collections
+package main
 
 func Filter[T any](d []T, h func(T) bool) []T {
 	r := []T{}

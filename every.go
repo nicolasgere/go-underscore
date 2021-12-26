@@ -1,4 +1,4 @@
-package collections
+package main
 
 func Every[T any](d []T, h func(T) bool) bool {
 	for _, v := range d {

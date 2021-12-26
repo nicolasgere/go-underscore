@@ -1,4 +1,4 @@
-package collections
+package main
 
 type Collection[T any] struct {
 	Data []T
