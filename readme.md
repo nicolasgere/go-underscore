@@ -6,19 +6,21 @@ It rely on the new golang generic feature available with the 1.18 (still in deve
 
 
 ## Usage/Examples
-
+Note: Generic are not available in golang yet, it would be available in golang 1.18.
+You can already try it with gotip
 ```go
 package main
 import (
-  underscore "github.com/nicolasgere/go-underscore"
+	"fmt"
+	underscore "github.com/nicolasgere/go-underscore"
 )
 
-func Main() {
-  list := []int{1,2,3,4,5}
-  listFiltered := underscore.filter(list, func(e int) bool{
-    return e > 2
-  })
-  fmt.println(listFiltered) // Print: [3,4,5]
+func main() {
+	list := []int{1,2,3,4,5}
+	listFiltered := underscore.Filter(list, func(e int) bool{
+		return e > 2
+	})
+	fmt.Println(listFiltered) // Print: [3,4,5]
 }
 ```
 
