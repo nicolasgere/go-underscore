@@ -1,4 +1,4 @@
-package main
+package underscore
 
 type Collection[T any] struct {
 	Data []T

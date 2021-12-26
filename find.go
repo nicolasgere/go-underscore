@@ -1,4 +1,4 @@
-package main
+package underscore
 
 func Find[T any](d []T, h func(T) bool) *T {
 

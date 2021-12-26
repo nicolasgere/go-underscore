@@ -1,4 +1,4 @@
-package main
+package underscore
 
 import (
 	"math/rand"

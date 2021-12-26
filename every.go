@@ -1,4 +1,4 @@
-package main
+package underscore
 
 func Every[T any](d []T, h func(T) bool) bool {
 	for _, v := range d {
